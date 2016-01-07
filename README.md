@@ -9,5 +9,7 @@ npm install
 node get.js
 ```
 
-LAST.txt - last downloaded transaction
-transactions.csv - result data file
+## Files
+
+* `LAST.txt` - last downloaded transaction
+* `transactions.csv` - result data file
