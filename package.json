@@ -1,0 +1,17 @@
+{
+  "name": "spending-data",
+  "version": "1.0.0",
+  "description": "Scraper",
+  "main": "get.js",
+  "dependencies": {
+    "csv-stringify": "0.0.8",
+    "http-sync": "^0.1.2",
+    "sync-request": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
