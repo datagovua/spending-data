@@ -13,3 +13,8 @@ node get.js
 
 * `LAST.txt` - last downloaded transaction
 * `transactions.csv` - result data file
+
+## Visualization
+
+Data can be uploaded to the next generation OpenSpending platform:
+https://spendb-dev.herokuapp.com/datasets/ukraine_spending?view=treemap&tile=recipt.nm
