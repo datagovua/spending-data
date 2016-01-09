@@ -14,6 +14,10 @@ node get.js
 * `LAST.txt` - last downloaded transaction
 * `transactions.csv` - result data file
 
+## Analysis
+
+* [Analysis](analysis/README.md)
+
 ## Visualization
 
 Data can be uploaded to the next generation OpenSpending platform:
