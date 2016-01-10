@@ -12,5 +12,7 @@ recipt_mfos <- unique(recipt_mfos[complete.cases(recipt_mfos),])
 
 mfos <- unique(rbind(payer_mfos, recipt_mfos))
 
-write.csv(mfos, file="mfos.csv", row.names=FALSE)
+mfos <- mfos[order(mfos$name),]
+
+write.csv(mfos, file="extracts/mfos.csv", row.names=FALSE)
 
