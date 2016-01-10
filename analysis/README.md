@@ -144,7 +144,17 @@ levels(recipt_mfos[,2])
 686     Test Bank            380838
 ```
 
-Тим не менш, експортуємо базу МФО задля нормалізації даних. Таким чином можна видалити 2 стовбці та вивільнити місце.
+Тим не менш, експортуємо базу МФО задля нормалізації даних. Таким чином можна видалити 2 стовбці та "полегшити" файл на 20%:
+
+```bash
+Rscript extracts/scripts/extract_mfos.R
+Rscript extracts/scripts/normalize.R
+ls -lh transactions.csv extracts/*.csv
+-rw-rw-r-- 1 john john 16K січ 10 12:28 extracts/mfos.csv
+-rw-rw-r-- 1 john john 41M січ 10 12:29 extracts/transactions.csv
+-rw-rw-r-- 1 john john 53M січ 10 12:17 transactions.csv
+```
+
 
 ## ЄДПРОУ на назви платників/одержувачів
 
