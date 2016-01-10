@@ -92,3 +92,9 @@ levels(recipt_mfos[,2])
 * Інші (поки що не відомі причини)
 
 Також є незрозумілим значення "Test bank" у полі назви банку. Можливо, це помилка у довіднику МФО, що використовується у edata. Даному МФО відповідає ПАТКБ "ПРАВЕКС-БАНК". Можливо, даним у полі `recipt_mfo_nm` не варто довіряти.
+
+```R
+> unique(transactions[transactions$recipt_mfo_nm =="Test Bank",c("recipt_mfo_nm", "recipt_mfo_knw_id")])
+    recipt_mfo_nm recipt_mfo_knw_id
+686     Test Bank            380838
+```
