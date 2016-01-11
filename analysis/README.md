@@ -190,3 +190,10 @@ ls -lh transactions.csv extracts/*.csv
 -rw-rw-r-- 1 john john  16K січ 10 13:57 extracts/mfos.csv
 -rw-rw-r-- 1 john john  42M січ 11 09:20 extracts/transactions.csv
 -rw-rw-r-- 1 john john  53M січ 10 12:17 transactions.csv
+```
+
+Разом з нормалізацією МФО:
+
+```
+-rw-rw-r-- 1 john john  29M січ 11 09:52 extracts/transactions.csv
+```
