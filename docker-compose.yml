@@ -1,0 +1,7 @@
+version: '2'
+services:
+  spending-data:
+    build: .
+    volumes:
+    - .:/src
+    command: sh -c 'cd /src && yarn && node get.js'
