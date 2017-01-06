@@ -5,13 +5,12 @@ Script to download data from spending.gov.ua
 ## Usage
 
 ```
-npm install
-node get.js
+docker-compose up
+# tail -f transactions.csv
 ```
 
 ## Files
 
-* `LAST.txt` - last downloaded transaction
 * `transactions.csv` - result data file
 
 ## Analysis
