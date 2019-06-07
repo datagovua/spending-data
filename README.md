@@ -1,3 +1,5 @@
+Superseeded by https://github.com/datagovua/transactions
+
 # Spending data
 
 Script to download data from spending.gov.ua
